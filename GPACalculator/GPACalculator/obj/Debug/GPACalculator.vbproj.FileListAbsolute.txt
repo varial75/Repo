@@ -1,0 +1,47 @@
+C:\Users\PC\source\repos\GPACalculator\GPACalculator\bin\Debug\GPACalculator.exe.config
+C:\Users\PC\source\repos\GPACalculator\GPACalculator\bin\Debug\GPACalculator.exe
+C:\Users\PC\source\repos\GPACalculator\GPACalculator\bin\Debug\GPACalculator.pdb
+C:\Users\PC\source\repos\GPACalculator\GPACalculator\bin\Debug\GPACalculator.xml
+C:\Users\PC\source\repos\GPACalculator\GPACalculator\obj\Debug\GPACalculator.vbprojResolveAssemblyReference.cache
+C:\Users\PC\source\repos\GPACalculator\GPACalculator\obj\Debug\GPACalculator.frmGPACalc.resources
+C:\Users\PC\source\repos\GPACalculator\GPACalculator\obj\Debug\GPACalculator.Resources.resources
+C:\Users\PC\source\repos\GPACalculator\GPACalculator\obj\Debug\GPACalculator.vbproj.GenerateResource.cache
+C:\Users\PC\source\repos\GPACalculator\GPACalculator\obj\Debug\GPACalculator.vbproj.CoreCompileInputs.cache
+C:\Users\PC\source\repos\GPACalculator\GPACalculator\obj\Debug\GPACalculator.exe
+C:\Users\PC\source\repos\GPACalculator\GPACalculator\obj\Debug\GPACalculator.xml
+C:\Users\PC\source\repos\GPACalculator\GPACalculator\obj\Debug\GPACalculator.pdb
+F:\Visual Studio 2017\Projects\GPACalculator\GPACalculator\bin\Debug\GPACalculator.exe.config
+F:\Visual Studio 2017\Projects\GPACalculator\GPACalculator\obj\Debug\GPACalculator.exe
+F:\Visual Studio 2017\Projects\GPACalculator\GPACalculator\obj\Debug\GPACalculator.xml
+F:\Visual Studio 2017\Projects\GPACalculator\GPACalculator\obj\Debug\GPACalculator.pdb
+F:\Visual Studio 2017\Projects\GPACalculator\GPACalculator\bin\Debug\GPACalculator.exe
+F:\Visual Studio 2017\Projects\GPACalculator\GPACalculator\bin\Debug\GPACalculator.pdb
+F:\Visual Studio 2017\Projects\GPACalculator\GPACalculator\bin\Debug\GPACalculator.xml
+F:\Visual Studio 2017\Projects\GPACalculator\GPACalculator\obj\Debug\GPACalculator.frmGPACalc.resources
+F:\Visual Studio 2017\Projects\GPACalculator\GPACalculator\obj\Debug\GPACalculator.Resources.resources
+F:\Visual Studio 2017\Projects\GPACalculator\GPACalculator\obj\Debug\GPACalculator.vbproj.GenerateResource.Cache
+F:\Visual Studio 2017\Projects\GPACalculator\GPACalculator\obj\Debug\GPACalculator.vbprojResolveAssemblyReference.cache
+D:\GPACalculator\GPACalculator\bin\Debug\GPACalculator.exe.config
+D:\GPACalculator\GPACalculator\bin\Debug\GPACalculator.exe
+D:\GPACalculator\GPACalculator\bin\Debug\GPACalculator.pdb
+D:\GPACalculator\GPACalculator\bin\Debug\GPACalculator.xml
+D:\GPACalculator\GPACalculator\obj\Debug\GPACalculator.vbprojResolveAssemblyReference.cache
+D:\GPACalculator\GPACalculator\obj\Debug\GPACalculator.frmGPACalc.resources
+D:\GPACalculator\GPACalculator\obj\Debug\GPACalculator.Resources.resources
+D:\GPACalculator\GPACalculator\obj\Debug\GPACalculator.vbproj.GenerateResource.cache
+D:\GPACalculator\GPACalculator\obj\Debug\GPACalculator.vbproj.CoreCompileInputs.cache
+D:\GPACalculator\GPACalculator\obj\Debug\GPACalculator.exe
+D:\GPACalculator\GPACalculator\obj\Debug\GPACalculator.xml
+D:\GPACalculator\GPACalculator\obj\Debug\GPACalculator.pdb
+C:\Users\PC\Downloads\GPACalculator\GPACalculator\bin\Debug\GPACalculator.exe.config
+C:\Users\PC\Downloads\GPACalculator\GPACalculator\bin\Debug\GPACalculator.exe
+C:\Users\PC\Downloads\GPACalculator\GPACalculator\bin\Debug\GPACalculator.pdb
+C:\Users\PC\Downloads\GPACalculator\GPACalculator\bin\Debug\GPACalculator.xml
+C:\Users\PC\Downloads\GPACalculator\GPACalculator\obj\Debug\GPACalculator.vbprojResolveAssemblyReference.cache
+C:\Users\PC\Downloads\GPACalculator\GPACalculator\obj\Debug\GPACalculator.frmGPACalc.resources
+C:\Users\PC\Downloads\GPACalculator\GPACalculator\obj\Debug\GPACalculator.Resources.resources
+C:\Users\PC\Downloads\GPACalculator\GPACalculator\obj\Debug\GPACalculator.vbproj.GenerateResource.cache
+C:\Users\PC\Downloads\GPACalculator\GPACalculator\obj\Debug\GPACalculator.vbproj.CoreCompileInputs.cache
+C:\Users\PC\Downloads\GPACalculator\GPACalculator\obj\Debug\GPACalculator.exe
+C:\Users\PC\Downloads\GPACalculator\GPACalculator\obj\Debug\GPACalculator.xml
+C:\Users\PC\Downloads\GPACalculator\GPACalculator\obj\Debug\GPACalculator.pdb
