@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inventory</title>
+  <style>
+    .inventory-card {
+      border: 1px solid #ccc;
+      padding: 1rem;
+      margin: 1rem;
+      display: inline-block;
+      vertical-align: top;
+      width: 200px;
+    }
+    .inventory-img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+</head>
+<body>
+  <div id="inventory"></div>
+
+  <script>
+    fetch("inventory.json")
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(data) {
+        function renderItems(items) {
+          var inventoryDiv = document.getElementById("inventory");
+          items.forEach(function(item) {
+            var card = document.createElement("div");
+            card.className = "inventory-card";
+
+            var img = document.createElement("img");
+            var imageSrc = item.image;
+            if (/^https?:\/\//i.test(imageSrc) || /^[^:]*$/.test(imageSrc)) {
+              img.setAttribute("src", imageSrc);
+            }
+            img.setAttribute("alt", item.title);
+            img.className = "inventory-img";
+            card.appendChild(img);
+
+            var h4 = document.createElement("h4");
+            h4.textContent = item.title;
+            card.appendChild(h4);
+
+            var pPrice = document.createElement("p");
+            var strong = document.createElement("strong");
+            strong.textContent = "Price:";
+            pPrice.appendChild(strong);
+            pPrice.appendChild(document.createTextNode(" $" + item.price));
+            card.appendChild(pPrice);
+
+            var pDesc = document.createElement("p");
+            pDesc.textContent = item.description;
+            card.appendChild(pDesc);
+
+            var pContact = document.createElement("p");
+            var strongContact = document.createElement("strong");
+            strongContact.textContent = "Call or Email to Purchase";
+            pContact.appendChild(strongContact);
+            card.appendChild(pContact);
+
+            img.style.cursor = "pointer";
+            img.addEventListener("click", function() {
+              var overlay = document.createElement("div");
+              overlay.style.position = "fixed";
+              overlay.style.top = 0;
+              overlay.style.left = 0;
+              overlay.style.width = "100%";
+              overlay.style.height = "100%";
+              overlay.style.background = "rgba(0,0,0,0.8)";
+              overlay.style.display = "flex";
+              overlay.style.alignItems = "center";
+              overlay.style.justifyContent = "center";
+
+              var largeImg = document.createElement("img");
+              if (/^https?:\/\//i.test(item.image) || /^[^:]*$/.test(item.image)) {
+                largeImg.src = item.image;
+              }
+              largeImg.style.maxWidth = "90%";
+              largeImg.style.maxHeight = "90%";
+
+              overlay.appendChild(largeImg);
+              overlay.addEventListener("click", function() {
+                document.body.removeChild(overlay);
+              });
+
+              document.body.appendChild(overlay);
+            });
+
+            inventoryDiv.appendChild(card);
+          });
+        }
+
+        renderItems(data);
+      })
+      .catch(function(error) {
+        document.getElementById("inventory").innerHTML =
+          "<p>Inventory temporarily unavailable. Please call for availability.</p>";
+        console.error("Error loading inventory:", error);
+      });
+  </script>
+</body>
+</html>
